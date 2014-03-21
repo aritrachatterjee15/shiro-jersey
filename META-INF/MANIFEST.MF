@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: shiro-jersey
+Bundle-SymbolicName: shiro-jersey
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.apache.shiro.jersey
+Import-Package: javax.ws.rs.container;version="2.0.0",
+ javax.ws.rs.core;version="2.0.0",
+ javax.ws.rs.ext;version="2.0.0",
+ org.apache.shiro.authz;version="1.2.3",
+ org.apache.shiro.authz.annotation;version="1.2.3",
+ org.apache.shiro.authz.aop;version="1.2.3"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
